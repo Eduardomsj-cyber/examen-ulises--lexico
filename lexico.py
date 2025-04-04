@@ -1,7 +1,5 @@
-# lexer_demo.py
 import re
 
-# Expresiones regulares para tokens básicos
 TOKEN_SPEC = [
     ('PALABRA_CLAVE', r'\bdef\b|\breturn\b'),
     ('IDENTIFICADOR', r'\b[a-zA-Z_][a-zA-Z0-9_]*\b'),
